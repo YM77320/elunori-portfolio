@@ -1,0 +1,26 @@
+# WordPress core and local configuration
+/wp-admin/
+/wp-includes/
+/*.php
+/license.txt
+/readme.html
+/wp-config.php
+
+# Reinstallable dependencies
+/wp-content/plugins/
+/wp-content/themes/
+/wp-content/languages/
+/wp-content/upgrade/
+/wp-content/index.php
+
+# Generated and local runtime files
+/wp-content/uploads/wpforms/
+*.log
+.DS_Store
+
+# Keep the portable project snapshot
+!/database/
+!/database/**
+!/wp-content/uploads/
+!/wp-content/uploads/**
+
